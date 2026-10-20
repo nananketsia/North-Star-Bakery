@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Contact &amp; Pre-Orders | North Star Bakery
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="brand">
+    <img alt="North Star Bakery logo" src="assets/bakery-logo.png" width="90"/>
+    <span>
+     North Star Bakery
+    </span>
+   </div>
+   <nav aria-label="Main navigation">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="products.html">
+     Products
+    </a>
+    <a href="about.html">
+     About Us
+    </a>
+    <a aria-current="page" href="contact.html">
+     Contact &amp; Pre-Orders
+    </a>
+   </nav>
+  </header>
+  <main>
+   <h1>
+    Get in touch
+   </h1>
+   <p>
+    Planning a gathering or hoping to save your favorite loaf? Send us a note. We would love to hear what you have in mind.
+   </p>
+   <section>
+    <h2>
+     Visit the bakery
+    </h2>
+    <p>
+     <strong>
+      Sample address:
+     </strong>
+     123 Main Street, Your Town — replace before publishing.
+    </p>
+    <p>
+     <strong>
+      Sample hours:
+     </strong>
+     Tuesday–Friday, 7 a.m.–5 p.m.; Saturday, 8 a.m.–3 p.m.; Sunday–Monday, closed.
+    </p>
+   </section>
+   <section>
+    <h2>
+     Inquiry and pre-order request
+    </h2>
+    <p>
+     Fields marked * are required. Sending this form is a request, not a confirmed order.
+    </p>
+    <form action="#" method="post">
+     <fieldset>
+      <legend>
+       Your contact details
+      </legend>
+      <label for="name">
+       Full name *
+      </label>
+      <input autocomplete="name" id="name" minlength="2" name="name" required="" type="text"/>
+      <label for="email">
+       Email address *
+      </label>
+      <input autocomplete="email" id="email" name="email" required="" type="email"/>
+     </fieldset>
+     <fieldset>
+      <legend>
+       What can we help with?
+      </legend>
+      <label for="request">
+       Request type *
+      </label>
+      <select id="request" name="request_type" required="">
+       <option value="">
+        Please choose
+       </option>
+       <option value="preorder">
+        Pre-order
+       </option>
+       <option value="question">
+        General question
+       </option>
+      </select>
+      <label for="pickup">
+       Preferred pickup date *
+      </label>
+      <input id="pickup" name="pickup_date" required="" type="date"/>
+      <label for="details">
+       Item details *
+      </label>
+      <textarea id="details" minlength="5" name="item_details" placeholder="Tell us which items and how many you would like." required="" rows="5"></textarea>
+      <label for="allergies">
+       Allergy notes (if applicable)
+      </label>
+      <textarea id="allergies" name="allergy_notes" placeholder="Please tell us about any food allergies or dietary concerns." rows="3"></textarea>
+     </fieldset>
+     <button type="submit">
+      Send request
+     </button>
+     <p>
+      <small>
+       Class project demonstration: this form needs a connected form service or server before it can deliver requests.
+      </small>
+     </p>
+    </form>
+   </section>
+  </main>
+  <footer>
+   <p>
+    Made with care, shared with neighbors. © 2026 North Star Bakery.
+   </p>
+   <p>
+    Location and opening hours are sample details for this class project.
+   </p>
+  </footer>
+ </body>
+</html>
