@@ -1,100 +1,101 @@
 <!DOCTYPE html>
+
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
    Products | North Star Bakery
   </title>
-  <link href="styles.css" rel="stylesheet"/>
- </head>
- <body>
-  <header>
-   <div class="brand">
-    <img alt="North Star Bakery logo" src="assets/bakery-logo.png" width="90"/>
-    <span>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="brand">
+<img alt="North Star Bakery logo" src="assets/bakery-logo.png" width="90"/>
+<span>
      North Star Bakery
     </span>
-   </div>
-   <nav aria-label="Main navigation">
-    <a href="index.html">
+</div>
+<nav aria-label="Main navigation">
+<a href="index.html">
      Home
     </a>
-    <a aria-current="page" href="products.html">
+<a aria-current="page" href="products.html">
      Products
     </a>
-    <a href="about.html">
+<a href="about.html">
      About Us
     </a>
-    <a href="contact.html">
+<a href="contact.html">
      Contact &amp; Pre-Orders
     </a>
-   </nav>
-  </header>
-  <main>
-   <h1>
+</nav>
+</header>
+<main>
+<h1>
     Fresh from our oven
    </h1>
-   <p>
+<p>
     Our selection changes a little with the season, but these are the favorites people come back for. Prices below are sample ranges for this project.
    </p>
-   <div class="content-grid">
-    <section>
-     <h2>
+<section class="favorites-panel" id="favorites"><h2>Save your bakery favorites</h2><p>See something you want to ask about later? Save it here. Your choices will still be here when you return on this browser.</p><div class="favorite-actions"><button data-favorite="Signature Loaf" type="button">Save Signature Loaf</button><button data-favorite="Croissants" type="button">Save Croissants</button><button data-favorite="Celebration Cake" type="button">Save Celebration Cake</button></div><p aria-live="polite" id="favorite-status" role="status">No favorites saved yet.</p><ul id="favorite-list"></ul><button class="quiet-button" id="clear-favorites" type="button">Clear saved favorites</button></section><div class="content-grid">
+<section>
+<h2>
       Breads
      </h2>
-     <img alt="Assorted golden artisan breads cooling after baking" src="assets/bakery-bread.jpg"/>
-     <p>
+<img alt="Assorted golden artisan breads cooling after baking" src="assets/bakery-bread.jpg"/>
+<p>
       From hearty whole wheat to a simple sourdough, our loaves are baked for sharing.
       <strong>
        About $5–$10 per loaf.
       </strong>
-     </p>
-     <figure>
-      <img alt="North Star Bakery's signature rustic loaf with a crisp golden crust" src="assets/bakery-signature-loaf.jpg"/>
-      <figcaption>
+</p>
+<figure>
+<img alt="North Star Bakery's signature rustic loaf with a crisp golden crust" src="assets/bakery-signature-loaf.jpg"/>
+<figcaption>
        Signature Loaf — our slow-risen, crusty house bread, baked fresh for everyday meals.
       </figcaption>
-     </figure>
-    </section>
-    <section>
-     <h2>
+</figure>
+</section>
+<section>
+<h2>
       Pastries
      </h2>
-     <p>
+<p>
       Buttery croissants, cinnamon rolls, and fruit-filled treats for mornings on the go.
       <strong>
        About $3–$6 each.
       </strong>
-     </p>
-    </section>
-    <section>
-     <h2>
+</p>
+</section>
+<section>
+<h2>
       Cakes
      </h2>
-     <p>
+<p>
       Simple celebration cakes made with care for birthdays, family dinners, and other happy occasions.
       <strong>
        About $25–$65, depending on size and decoration.
       </strong>
-     </p>
-    </section>
-   </div>
-   <p>
+</p>
+</section>
+</div>
+<p>
     We do not take payments online.
     <a class="cta" href="contact.html">
      Ask about availability or place a pickup request
     </a>
     , and we will follow up to confirm the details.
    </p>
-  </main>
-  <footer>
-   <p>
+</main>
+<footer>
+<p>
     Made with care, shared with neighbors. © 2026 North Star Bakery.
    </p>
-   <p>
+<p>
     Location and opening hours are sample details for this class project.
    </p>
-  </footer>
- </body>
+</footer>
+<script defer="True" src="script.js"></script></body>
 </html>
