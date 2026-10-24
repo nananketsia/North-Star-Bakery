@@ -1,100 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Products | North Star Bakery
-  </title>
-  <link href="styles.css" rel="stylesheet"/>
- </head>
- <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Products | North Star Bakery</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
   <header>
-   <div class="brand">
-    <img alt="North Star Bakery logo" src="assets/bakery-logo_c.png" width="90"/>
-    <span>
-     North Star Bakery
-    </span>
-   </div>
-   <nav aria-label="Main navigation">
-    <a href="index.html">
-     Home
-    </a>
-    <a aria-current="page" href="products.html">
-     Products
-    </a>
-    <a href="about.html">
-     About Us
-    </a>
-    <a href="contact.html">
-     Contact &amp; Pre-Orders
-    </a>
-   </nav>
+    <div class="brand">
+      <img
+        src="assets/bakery-logo_c.png"
+        alt="North Star Bakery logo"
+        width="90"
+      >
+      <span>North Star Bakery</span>
+    </div>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html" aria-current="page">Products</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact &amp; Pre-Orders</a>
+    </nav>
   </header>
+
   <main>
-   <h1>
-    Fresh from our oven
-   </h1>
-   <p>
-    Our selection changes a little with the season, but these are the favorites people come back for. Prices below are sample ranges for this project.
-   </p>
-   <div class="content-grid">
-    <section>
-     <h2>
-      Breads
-     </h2>
-     <img alt="Assorted golden artisan breads cooling after baking" src="assets/bakery-bread_c.jpg"/>
-     <p>
-      From hearty whole wheat to a simple sourdough, our loaves are baked for sharing.
-      <strong>
-       About $5–$10 per loaf.
-      </strong>
-     </p>
-     <figure>
-      <img alt="North Star Bakery's signature rustic loaf with a crisp golden crust" src="assets/bakery-signature-loaf_c.jpg"/>
-      <figcaption>
-       Signature Loaf — our slow-risen, crusty house bread, baked fresh for everyday meals.
-      </figcaption>
-     </figure>
-    </section>
-    <section>
-     <h2>
-      Pastries
-     </h2>
-     <p>
-      Buttery croissants, cinnamon rolls, and fruit-filled treats for mornings on the go.
-      <strong>
-       About $3–$6 each.
-      </strong>
-     </p>
-    </section>
-    <section>
-     <h2>
-      Cakes
-     </h2>
-     <p>
-      Simple celebration cakes made with care for birthdays, family dinners, and other happy occasions.
-      <strong>
-       About $25–$65, depending on size and decoration.
-      </strong>
-     </p>
-    </section>
-   </div>
-   <p>
-    We do not take payments online.
-    <a class="cta" href="contact.html">
-     Ask about availability or place a pickup request
-    </a>
-    , and we will follow up to confirm the details.
-   </p>
+    <h1>Fresh from our oven</h1>
+
+    <p>
+      Our selection changes a little with the season, but these are
+      the favorites people come back for. Prices below are sample
+      ranges for this project.
+    </p>
+
+    <div class="content-grid">
+      <section aria-labelledby="breads-heading">
+        <h2 id="breads-heading">Breads</h2>
+
+        <img
+          src="assets/bakery-bread_c.png"
+          alt="Assorted golden artisan breads cooling after baking"
+          style="max-width: 100%; height: auto;"
+        >
+
+        <p>
+          From hearty whole wheat to a simple sourdough, our loaves
+          are baked for sharing.
+          <strong>About $5–$10 per loaf.</strong>
+        </p>
+
+        <figure>
+          <img
+            src="assets/bakery-signature-loaf_c.png"
+            alt="North Star Bakery's signature rustic loaf with a golden crust"
+            loading="lazy"
+            style="max-width: 100%; height: auto;"
+          >
+
+          <figcaption>
+            Signature Loaf — our slow-risen, crusty house bread,
+            baked fresh for everyday meals.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="pastries-heading">
+        <h2 id="pastries-heading">Pastries</h2>
+
+        <!-- Add a pastry image here after uploading it to assets. -->
+
+        <p>
+          Buttery croissants, cinnamon rolls, and fruit-filled treats
+          for mornings on the go.
+          <strong>About $3–$6 each.</strong>
+        </p>
+      </section>
+
+      <section aria-labelledby="cakes-heading">
+        <h2 id="cakes-heading">Cakes</h2>
+
+        <!-- Add a cake image here after uploading it to assets. -->
+
+        <p>
+          Simple celebration cakes made with care for birthdays,
+          family dinners, and other happy occasions.
+          <strong>
+            About $25–$65, depending on size and decoration.
+          </strong>
+        </p>
+      </section>
+    </div>
+
+    <p>We do not take payments online.</p>
+
+    <p>
+      <a class="cta" href="contact.html">
+        Ask about availability or place a pickup request
+      </a>
+    </p>
+
+    <p>We will follow up to confirm the details.</p>
   </main>
+
   <footer>
-   <p>
-    Made with care, shared with neighbors. © 2026 North Star Bakery.
-   </p>
-   <p>
-    Location and opening hours are sample details for this class project.
-   </p>
+    <p>
+      Made with care, shared with neighbors.
+      &copy; 2026 North Star Bakery.
+    </p>
+
+    <p>
+      Location and opening hours are sample details for this class project.
+    </p>
   </footer>
- </body>
+</body>
 </html>
